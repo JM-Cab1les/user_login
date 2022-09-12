@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 Registration Select</title>
+   
+    <!-- CSS only -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-fixed-top bg-dark" role="navigation">
+        <div class="navbar-header-logo">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/seal.png">
+            </a>
+            <a class="navbar-brand brand-text" href="index.html">Meycauayan ID HealthCare</a>
+        </div>
+        <div class="dropdown dropdown-container">
+            <button class="btn btn-secondary " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-caret-down"></i>
+            </button>
+                <ul class="dropdown-menu menu-item" aria-labelledby="dropdownMenu">
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-user"></i> Jhon Marc</a></li>
+                    <li><a class="dropdown-item" href="../registration-select.html"><i class="fa-solid fa-gauge"></i> DashBoard</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#"><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
+                </ul>
+            </ul>
+          </div>
+    </nav>
+    <div class="form-wrapper container">
+        <h1 class="text-center mb-3 mt-3">COVID-19 Patient Registration</h1>
+        <form action="">
+            <div class="row">
+                <h2 class="text-center mb-3">Personal Details</h2>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">First Name</label>
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Middle Name</label>
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Last Name</label>
+                    <input type="text" class="form-control" placeholder="Suffix" aria-label="First name">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Gender</label>
+                    <select class="form-select form-container" aria-label="Default select example">
+                        <option selected>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        
+                      </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Civil Status</label>
+                    <select class="form-select form-container" aria-label="Default select example">
+                        <option selected style="font-size:1.2rem">Civil Status</option>
+                        <option value="Male">Married</option>
+                        <option value="Female">Widow</option>
+                        
+                      </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Age</label>
+                    <input type="number" class="form-control" placeholder="Age" aria-label="First name">
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Birthday</label>
+                    <input type="date" class="form-control" aria-label="First name">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Email Address</label>
+                    <input type="email" class="form-control" placeholder="email-address" aria-label="First name">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Contact No.</label>
+                    <input type="number" class="form-control" placeholder="contact-no" aria-label="First name">
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row">
+                <h2 class="text-center">Address details</h2>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <label class="form-label">House No.</label>
+                    <input type="text" class="form-control" placeholder="house-no" >
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <label class="form-label">Street</label>
+                    <input type="text" class="form-control" placeholder="Street">
+                </div>
+                <div class="col-lg-4 col-md-6 mb-3">
+                    <label class="form-label">Barangay</label>
+                    <select class="form-select form-container">
+                        <option selected>Barangay</option>
+                        <option value="Bagbaguin">Bagbaguin</option>
+                         <option value="Bahay Pare">Bahay Pare</option>
+                         <option value="Bancal">Bancal</option>
+                         <option value="Banga">Banga</option>
+                         <option value="Bayugo">Bayugo</option>
+                         <option value="Caingin">Caingin</option>
+                         <option value="Calvario">Calvario</option>
+                         <option value="Camalig">Camalig</option>
+                         <option value="Gasak">Gasak</option>
+                         <option value="Hulo">Hulo</option>
+                         <option value="Iba">Iba</option>
+                         <option value="Langka">Langka</option>
+                         <option value="Lawa">Lawa</option>
+                         <option value="Libtong">Libtong</option>
+                         <option value="Liputan">Liputan</option>
+                         <option value="Longos">Longos</option>
+                         <option value="Malhacan">Malhacan</option>
+                         <option value="Pajo">Pajo</option>
+                         <option value="Pandayan">Pandayan</option>
+                         <option value="Pantoc">Pantoc</option>
+                         <option value="Perez">Perez</option>
+                         <option value="Poblacion">Poblacion</option>
+                         <option value="Saluysoy">Saluysoy</option>
+                         <option value="Tugatog">Tugatog</option>
+                         <option value="Ubihan">Ubihan</option>
+                         <option value="Zamora">Zamora</option>
+                        
+                      </select>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <h2 class="text-center">Covid-19 Details</h2>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Status</label>
+                    <select class="form-select form-container">
+                        <option selected>Select Status</option>
+                        <option value="active">Active</option>
+                        <option value="recovered">Recovered</option>
+                        <option value="death">Death</option>
+                      </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Testing Date</label>
+                    <input type="date" class="form-control" aria-label="First name">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">RTPCR Test</label>
+                    <input type="file" class="form-control" aria-label="First name">
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Isolation Location</label>
+                    <select class="form-select form-container">
+                        <option selected>Isolation Location</option>
+                        <option value="Private Hospital">Active</option>
+                        <option value="Public Hospital">Recovered</option>
+                        <option value="Quarantine Facility">Quarantine Facility</option>
+                        <option value="Home Quarantine">Home Quarantine</option>
+                    </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Condition Status</label>
+                    <select class="form-select form-container">
+                        <option selected>Select Condition Status</option>
+                        <option value="Private Hospital">Asymptomatic</option>
+                        <option value="Public Hospital">Mild</option>
+                        <option value="Quarantine Facility">Severed</option>
+                        <option value="Home Quarantine">Moderate</option>
+                        <option value="Home Quarantine">Critical</option>
+                      </select>
+                </div>
+                <div class="col-lg-3 col-md-2 mb-3 ">
+                    <h4>Symptoms (if not Asymptomatic)</h4>
+                    <input class="form-check-input" type="checkbox" value="lost of taste" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        lost of taste
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="fever" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        fever
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="cough" id="flexCheckChecked">
+                    <label class="form-check-label" for="flexCheckChecked">
+                        cough
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="difficulty of breath" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        difficulty of breath
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="diarrhea" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        diarrhea
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="nausea" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        nausea
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="headache" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        headache
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="fatigue" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        fatigue
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="sore throat" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        sore throat
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="vomiting" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        vomiting
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="anorexia" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        anorexia
+                    </label>
+                    <input class="form-check-input" type="checkbox" value="miyalgia" id="flexCheckChecked" >
+                    <label class="form-check-label" for="flexCheckChecked">
+                        miyalgia
+                    </label>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Vaccination Report</label>
+                    <select class="form-select form-container">
+                        <option selected>Vaccination Report</option>
+                        <option value="Vaccinated">Vaccinated</option>
+                        <option value="Not Vaccinated">Not Vaccinated</option>
+                        
+                    </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Brand of Vaccine</label>
+                    <select class="form-select form-container">
+                        <option selected>Brand of Vaccine (if Vaccinated)</option>
+                        <option value="Pfizer">Pfirzer</option>
+                        <option value="Moderna">Moderna</option>
+                        <option value="Sputnik V">Sputnik V</option>
+                        <option value="Astrazeneca">Astrazeneca</option>
+                        <option value="Sinovac">Sinovac</option>
+                        <option value="Sinopharm">Sinopharm</option>
+                        <option value="Johnson & Johnson">Johnson & Johnson</option>
+                        
+                        
+                    </select>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">No. of Dose</label>
+                    <select class="form-select form-container">
+                        <option selected>No. of Dose</option>
+                        <option value= 1>1</option>
+                        <option value= 2>2</option>
+                        <option value= "booster shot">booster shot</option>
+                        
+                        
+                    </select>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <label class="form-label">Date Reported</label>
+                    <input type="date" class="form-control" aria-label="First name">
+                </div>
+                
+            </div>
+            <div class="btn-grp mb-3">
+                <button type="button" class="btn btn-primary btn-lg btn-submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
